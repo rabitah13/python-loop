@@ -1,7 +1,6 @@
-actual_cost=float(input("please enter the actual product price: "))
-sell_cost=float(input("please enter sell amount: "))
-if sell_cost>actual_cost:
-    amount=sell_cost-actual_cost
-    print("total profit={0}".format(amount))
-else:
-    print("no profit")
+string=input("Please enter your string: ")
+string2 =(" ")
+for i in string:
+    string2 = i+string2
+print("\nthe original string=",string)
+print("the reversed string=",string2)    
